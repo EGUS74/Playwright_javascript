@@ -1,0 +1,23 @@
+{
+  "name": "playwright_javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test",
+    "tests-h": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0"
+  },
+
+  "cucumberautocomplete.steps": "steps/**/*.js",
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontSize": 14
+}
